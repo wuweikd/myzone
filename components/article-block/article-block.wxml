@@ -1,0 +1,22 @@
+<div class="a-block">
+    <div class="a-block-top">
+      <span>
+        {{blockData.title}}
+      </span>
+    </div>
+    <div class="a-block-center">
+        <div class="a-block-center-left {{blockData.imgSrc !=='' ? '':'a-block-center-left-100'}}">
+            <div class="a-block-time">时间：2019-12-21 23:45</div>
+            <div class="a-block-article">{{blockData.content}}</div>
+        </div>
+        <div class="a-block-center-right" wx:if="{{blockData.imgSrc !==''}}">
+            <image class="a-block-img" mode="aspectFill" src="{{blockData.imgSrc}}">
+            </image>
+        </div>
+    </div>
+    <div class="a-block-bottom">
+        <span>170赞  </span>
+        <span>21踩  </span>
+        <span>12评论</span>
+    </div>
+</div>

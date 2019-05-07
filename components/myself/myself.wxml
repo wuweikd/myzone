@@ -1,0 +1,23 @@
+<view class="my-self-out" wx:if="{{transX !== '-300px'}}"  catchtouchmove="preventTouchMove">
+</view>
+<view class="my-self" bindtouchstart="touchStart"
+          bindtouchmove="touchMove"
+          bindtouchend="touchEnd"
+          style="margin-left: {{transX}}"
+    >
+        <aside class="my-self-left">
+            <div class="my-self-content">
+                <div class="my-self-title">Coder的空间</div>
+                <div class="my-self-body">
+                    <div class="my-self-link">
+                        发布
+                    </div>
+                    <div class="my-self-link">
+                        关于
+                    </div>
+                    <div class="my-self-link">留言</div>
+                </div>
+            </div>
+        </aside>
+    </view>
+

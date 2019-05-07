@@ -1,0 +1,8 @@
+{
+  "usingComponents": {
+    "article-list": "/components/article-list/article-list",
+    "myself": "/components/myself/myself"
+  },
+  "enablePullDownRefresh": true,
+  "onReachBottomDistance": 30
+}

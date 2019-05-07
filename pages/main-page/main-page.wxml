@@ -1,0 +1,25 @@
+<div class="index" id="index">
+    <div class="index-top">
+        <view class="index-top-left" bindtap="clickOpenMyself">☰</view>
+        <span class="index-top-center">日记本</span>
+        <span class="index-top-right">
+      </span>
+    </div>
+    <div class="fresh-text">
+        <image class="fresh-img" src="../../assets/img/loading.gif" alt="" >
+        </image>
+    </div>
+    <div class="index-main">
+        <div class="index-blocks">
+            <article-list listData="{{articleList}}"></article-list>
+        </div>
+    </div>
+    <div class="loading-text" wx:if="{{isLoading}}">
+        <image class="fresh-img" src="../../assets/img/loading.gif" alt="" >
+        </image>
+<!--
+        <text>没有更多文章了</text>
+-->
+    </div>
+    <myself id="transId" class="myself-trans"></myself>
+</div>

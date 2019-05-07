@@ -1,0 +1,55 @@
+.my-self-out {
+  background-color: rgba(0,0,0,0.5);
+  top: 0;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  position: fixed;
+  z-index: 10;
+  height: 100%;
+}
+.my-self {
+  position: fixed;
+  display: block;
+  z-index: 100;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  height: 100%;
+  font-size: 16px;
+  width: 300px;
+  /*
+  margin-left: -300px;
+  */
+/*  background-color: lightblue;*/
+}
+.my-self-left {
+  display: block;
+  width: 300px;
+  height: 100%;
+  background-color: #000000;
+
+}
+.my-self-content {
+  /*background-color: lavender;*/
+  position: absolute;
+  bottom: 50px;
+  left: 0;
+  width: 250px;
+  height: 300px;
+  padding: 50px 25px;
+
+}
+.my-self-title {
+  font-size: 32px;
+  color: #FFFFFF;
+}
+.my-self-body {
+
+}
+.my-self-link {
+  display: block;
+  font-size: 27px;
+  color: #FFFFFF;
+  margin-top: 10px;
+}

@@ -1,0 +1,5 @@
+<div class="article-list">
+        <div class="article-list-main" wx:for="{{listData}}" wx:key="{{id}}">
+            <article-block blockData="{{item}}"></article-block>
+        </div>
+</div>
